@@ -1,0 +1,16 @@
+<div class="general-list-wrapper">
+    <h3>{{title}}</h3>
+
+    <div class="list-arrows-wrapper">
+        <span class="arrow" (click)="scrollList('left')"><i class="ion-arrow-left-b"></i></span>
+        <div class="list-container">
+            <ul class="list-item-panel" [style.margin-left.px]="-listTransition">
+                <li class="list-item" *ngFor="let item of items" (click)="selectItem(item)">
+                    <img src="{{item.image}}" alt="{{item.name}}" />
+                    <h4>{{item.name}}</h4>
+                </li>
+            </ul>           
+        </div>
+        <span class="arrow" (click)="scrollList('right')"><i class="ion-arrow-right-b"></i></span>
+    </div>
+</div>

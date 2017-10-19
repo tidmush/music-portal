@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{height: 100%;font-family: 'Montserrat', sans-serif; font-size: 9px;}
+h1 {font-weight: 100;}
+.logo{width: 64px;}
+.full-height{height: 100%;}
+main,player,user{height: 100%;}

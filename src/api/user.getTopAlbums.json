@@ -1,0 +1,45 @@
+{
+    "user": "RJ",
+    "type": "overall",
+    "topalbums": [
+        {
+            "name": "Images And Words",
+            "playcount": 42,
+            "mbid": "f20971f2-c8ad-4d26-91ab-730f6dedafb2",
+            "url": "http://www.last.fm/music/Dream+Theater/Images+and+Words",
+            "streamable": 1,
+            "artist": {
+                "name": "Dream Theater",
+                "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+                "url": "http://www.last.fm/music/Dream+Theater"
+            },
+            "images": []
+        },
+         {
+            "name": "The Bands",
+            "playcount": 245,
+            "mbid": "f20971f2-c8ad-4d26-91ab-730f6dedafb2",
+            "url": "http://www.last.fm/music/Radiohead/The+Bands",
+            "streamable": 1,
+            "artist": {
+                "name": "Radiohead",
+                "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+                "url": "http://www.last.fm/music/Radiohead"
+            },
+            "images": []
+        },
+         {
+            "name": "Black Holes and Revelations",
+            "playcount": 59,
+            "mbid": "f20971f2-c8ad-4d26-91ab-730f6dedafb2",
+            "url": "http://www.last.fm/music/Muse/Black+Holes+and+Revelations",
+            "streamable": 1,
+            "artist": {
+                "name": "Muse",
+                "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+                "url": "http://www.last.fm/music/Muse"
+            },
+            "images": []
+        }
+    ]
+}

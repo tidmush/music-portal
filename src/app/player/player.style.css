@@ -1,0 +1,5 @@
+#player-wrapper {height: 100%;position: fixed;}
+.details-wrapper{margin-bottom:10px; }
+.details-wrapper h4 {margin-bottom:10px; }
+.buttons-wrapper{text-align: center; margin-top:10px; }
+.buttons-wrapper button {margin: 0 5px; font-size: 3rem;}

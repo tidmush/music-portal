@@ -1,0 +1,17 @@
+{
+    "user":{
+    "id":1000002,
+    "name":"RJ",
+    "realname":"ichard Jones",
+    "url":"http://www.last.fm/user/RJ",
+    "image":"http://userserve-ak.last.fm/serve/126/8270359.jpg",
+    "country":"UK",
+    "age":27,
+    "gender":"m",
+    "subscriber":1,
+    "playcount":54189,
+    "playlists":4,
+    "bootstrap":0,
+    "registered":"2002-11-20 11:50"
+    }
+}
