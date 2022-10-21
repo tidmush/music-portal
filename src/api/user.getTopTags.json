@@ -1,0 +1,30 @@
+{
+    "user": "RJ",
+    "toptags": [
+        {
+            "name": "Rock",
+            "cout": 42,
+            "url": "www.last.fm/tag/rock"
+        },
+        {
+            "name": "Electro",
+            "cout": 14,
+            "url": "www.last.fm/tag/electro"
+        },
+        {
+            "name": "Ambient",
+            "cout": 62,
+            "url": "www.last.fm/tag/ambient"
+        },
+        {
+            "name": "Jazz",
+            "cout": 78,
+            "url": "www.last.fm/tag/jazz"
+        },
+        {
+            "name": "easy Listening",
+            "cout": 3,
+            "url": "www.last.fm/tag/easy+listening"
+        }
+    ]
+}

@@ -1,10 +1,10 @@
 {
-  "tag":"Rock",
+  "artist":"Dream Theater",
     "toptracks": [
         {
             "name": "Learning to Live",
             "playcount": 42,
-            "mbid": null,
+            "mbid": "3c57c74e-b02a-48f2-8233-055b5630fd6a",
             "url": "http://www.last.fm/music/Dream+Theater/_/Learning+to+Live",
             "streamable": 1,
             "artist": {
@@ -17,7 +17,7 @@
          {
             "name": "Paranoid Android",
             "playcount": 245,
-            "mbid": null,
+            "mbid": "2fddb92d-24b2-46a5-bf28-3aed46f4684c",
             "url": "http://www.last.fm/music/Radiohead/_/Paranoid+Android",
             "streamable": 1,
             "artist": {
@@ -30,7 +30,7 @@
          {
             "name": "Bliss",
             "playcount": 59,
-            "mbid": null,
+            "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
             "url": "http://www.last.fm/music/Muse/_/Bliss",
             "streamable": 1,
             "artist": {

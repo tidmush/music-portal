@@ -1,6 +1,6 @@
 import {Track} from './track';
 import {Artist} from './artist';
-import {Album} from './album';
+import {Tag} from './tag';
 
 export class UserCollection {
     user: string;
@@ -8,5 +8,5 @@ export class UserCollection {
     tag:string;
     toptracks:Track[];
     topartists:Artist[];
-    topalbums:Album[];
+    toptags:Tag[];
 }

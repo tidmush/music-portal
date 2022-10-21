@@ -6,7 +6,11 @@
   </header>
 
   <div id="main-content-wrapper" class="row">
-    <user class="col-md-9"></user>    
-    <player class="col-md-3"></player>
+      <div>
+          <button class="btn btn-primary" type="button" (click)="isCollapsed = !isCollapsed" >Favorites</button>
+          <button class="btn btn-primary" type="button" (click)="isCollapsed = !isCollapsed" >Player</button>
+        </div>
+    <user id="user" [class.collapse]="!isUserCollapsed"></user>    
+    <player id="player" [class.collapse]="isUserCollapsed"></player>
   </div>
 </div>

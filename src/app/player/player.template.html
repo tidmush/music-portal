@@ -1,15 +1,26 @@
 <div id="player-wrapper" class="bg-light">
-     <div id="player">
+     <div>
         <div class="details-wrapper">
-            <h4>Radiohead - The Daily Mail</h4>
-            <span><strong>up next:</strong> R.E.M. - Evergreen</span>
+            <h4 *ngIf="current">{{current.key}}</h4>
+            <span *ngIf="queue.length > 0"><strong>up next:</strong> {{queue[0].key}}</span>
         </div>
 
-        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/McuHVXgR8dA" frameborder="0" allowfullscreen></iframe>
+        <div>
+            <iframe id="player" type="text/html" width="320" height="240" *ngIf="current" 
+            [src]="current.tag | safe"
+            frameborder="0"></iframe>
+        </div>
+
         <div class="buttons-wrapper">
-            <button class="ion-skip-backward"></button>
-            <button class="ion-play"></button>
-            <button class="ion-skip-forward"></button>
+            <button class="ion-play" [disabled]="!current"></button>
+            <button class="ion-skip-forward" [disabled]="!(queue && queue.length > 0) " (click)="next()"></button>
+        </div>
+        <div class="queue-wrapper">
+            <ul>
+                <li *ngFor="let item of queue">
+                    <span>{{item.name}}</span>
+                </li>
+            </ul>
         </div>
     </div>
 

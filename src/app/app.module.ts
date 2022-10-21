@@ -13,7 +13,7 @@ import { MainComponent } from './main/main.component';
 import { UserComponent } from './user/user.component';
 import { PlayerComponent } from './player/player.component';
 import { GeneralListComponent } from './main/general-list.component';
-
+import {SafePipe} from './main/safe.pipe';
 
 import { AuthGuard } from './main/auth-guard.service';
 import { GeneralService } from './main/general.service';
@@ -32,7 +32,7 @@ const appRoutes: Routes = [
 
  @NgModule({
    imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpModule,HttpClientModule],
-   declarations: [AppComponent, LoginComponent, MainComponent, UserComponent, PlayerComponent, GeneralListComponent],
+   declarations: [AppComponent, LoginComponent, MainComponent, UserComponent, PlayerComponent, GeneralListComponent,SafePipe],
    providers: [GeneralService, LoginService, UserService,PlayerService, AuthGuard, Settings],
    bootstrap: [AppComponent]
  })

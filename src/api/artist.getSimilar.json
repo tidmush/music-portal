@@ -1,0 +1,29 @@
+{
+    "artist": "Cher",
+    "similarartists": [
+        {
+            "name": "Dream Theater",
+            "match": 1,
+            "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+            "url": "http://www.last.fm/music/Dream+Theater",
+            "streamable": 1,
+            "images": []
+        },
+        {
+            "name": "Radiohead",
+            "match": 1,
+            "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+            "url": "http://www.last.fm/music/radiohead",
+            "streamable": 1,
+            "images": []
+        },
+        {
+            "name": "Muse",
+            "match": 0.8,
+            "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+            "url": "http://www.last.fm/music/Muse",
+            "streamable": 1,
+            "images": []
+        }
+    ]
+}
